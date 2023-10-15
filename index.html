@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Wireframe</title>
+    <link rel="stylesheet" href="src/style.css" class="css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h1 id="main-city">Auckland ☀️</h1>
+            <h6 id="date"></h6>
+            <h2>
+              <span id="temp"> 20º</span>
+              <sup>
+                <a href="#" id="Celsius">C</a> |
+                <a href="#" id="Fahrenheit">F</a></sup
+              >
+              <br />
+              Sunny
+            </h2>
+          </div>
+          <div class="col-6">
+            <img src="images/weather1.jpg" />
+          </div>
+          <form id="search-form">
+            <input
+              type="search"
+              placeholder="Enter the name of the city"
+              id="search-box"
+              class="form-control"
+            />
+            <button type="submit" class="btn btn-pill btn-success">
+              Search
+            </button>
+            <button type="button" class="btn btn-dark">📍</button>
+          </form>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <h4>Tuesday 🌧</h4>
+            <h4>
+              18º
+              <br />
+              Rain
+            </h4>
+          </div>
+          <div class="col-4">
+            <h4>Wednesday 🌧</h4>
+            <h4>
+              15º
+              <br />
+              Rain
+            </h4>
+          </div>
+          <div class="col-4">
+            <h4>Thursday ☀️</h4>
+            <h4>
+              27º
+              <br />
+              Sunny
+            </h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <h4>Friday ⛈</h4>
+            <h4>
+              16º
+              <br />
+              Rain
+            </h4>
+          </div>
+          <div class="col-4">
+            <h4>Saturday ❄️</h4>
+            <h4>
+              5º
+              <br />
+              Frost
+            </h4>
+          </div>
+          <div class="col-4">
+            <h4>Sunday 🌝</h4>
+            <h4>
+              19º
+              <br />
+              Sunny
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
